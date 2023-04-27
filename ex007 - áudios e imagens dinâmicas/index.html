@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex011</title>
+</head>
+<body>
+    <h1>Usando imagens dinâmicas</h1>
+
+    <picture>
+        <source media="(max-width: 600px)" srcset="P.png" type="image/png">
+        <img src="G.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>Forma 1</p>
+    <audio src="sfx-ratinhooo-original.mp3" controls></audio>
+    <p>Forma 2</p>
+    <audio controls loop>
+        <source src="cavalo-vinhetas.mp3" type="audio/mpeg">
+        <p>Seu navegador não suporta  mp3,  troque pra um navegador melhor</p>
+    </audio>
+</body>
+</html>
