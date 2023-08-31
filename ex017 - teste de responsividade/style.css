@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+main {
+    background-color: aqua;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+
+    min-width: none;
+    max-width: 800px;
+}
+
+img {
+    width: 100%;
+}
